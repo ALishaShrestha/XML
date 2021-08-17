@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="musicStore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="storeDetails"/>
+        <xs:element ref="songs"/>
+        <xs:element ref="footer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="storeDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="storeName"/>
+        <xs:element ref="owner"/>
+        <xs:element ref="panNo"/>
+        <xs:element ref="address"/>
+        <xs:element ref="telephoneNo"/>
+        <xs:element ref="website"/>
+        <xs:element ref="logo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="storeName" type="xs:string"/>
+  <xs:element name="telephoneNo" type="xs:integer"/>
+  <xs:element name="logo" type="xs:string"/>
+
+   <xs:element name="panNo">
+      <xs:simpleType>
+        <xs:restriction base="xs:integer">
+            <xs:enumeration value="1983474"/>
+         </xs:restriction> 
+       </xs:simpleType> 
+   </xs:element>
+
+   <xs:element name="website">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z]*.[a-z]*.[a-z]*"/>
+         </xs:restriction> 
+       </xs:simpleType> 
+   </xs:element>
+
+  <xs:element name="owner">
+    <xs:complexType mixed="true">
+      <xs:attribute name="title" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="address">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="city" type="xs:string"/>
+          <xs:attribute name="province" type="xs:int"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="songs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="song" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="song">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="songName"/>
+        <xs:element ref="album" minOccurs="0"/>
+        <xs:element ref="director" minOccurs="0"/>
+        <xs:element ref="producer" minOccurs="0"/>
+        <xs:element ref="writers"/>
+        <xs:element ref="singers"/>
+        <xs:element ref="featured" minOccurs="0"/>
+        <xs:element ref="label"/>
+        <xs:element ref="releaseYear"/>
+        <xs:element ref="trackLength"/>
+        <xs:element ref="price"/>
+      </xs:sequence>
+      <xs:attribute name="genre" type="xs:string"/>
+      <xs:attribute name="coverpage" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="songName" type="xs:string"/>
+  <xs:element name="album" type="xs:string"/>
+  <xs:element name="director" type="xs:string"/>
+  <xs:element name="producer" type="xs:string"/>
+  <xs:element name="featured" type="xs:string"/>
+  <xs:element name="label" type="xs:string"/>
+  <xs:element name="releaseYear" type="xs:integer"/>
+
+   <xs:element name="price">
+      <xs:simpleType>
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[0-9]{3}"/>
+         </xs:restriction> 
+       </xs:simpleType> 
+   </xs:element>
+
+   <xs:element name="trackLength">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{1}:[0-9]{2}"/>
+         </xs:restriction> 
+       </xs:simpleType> 
+   </xs:element>
+
+  <xs:element name="writers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="writer" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="writer">
+    <xs:complexType mixed="true">
+      <xs:attribute name="gender" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="singers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="singer" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="singer">
+    <xs:complexType mixed="true">
+      <xs:attribute name="gender" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="footer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="copyright"/>
+      </xs:sequence>
+      <xs:attribute name="feedback" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="copyright" type="xs:string"/>
+
+</xs:schema>

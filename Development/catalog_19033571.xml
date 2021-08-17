@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19033571.css"?>
+<!DOCTYPE musicStore SYSTEM "catalog_19033571.dtd">
+<musicStore>
+	<storeDetails>
+		<storeName>Marga Music Store</storeName>
+		<owner title="Mr.">Suman Pariyar</owner>
+		<panNo>1983474</panNo>
+		<address city="Dharan" province="1">Gauthampath</address>
+		<telephoneNo>025531724</telephoneNo>
+		<website>www.margamusic.com</website>
+		<logo>Marga</logo>
+	</storeDetails>
+	<songs>
+		<song genre="Jazz" coverpage="01">
+			<songName>"Hit the road jack"</songName>
+			<album>Ray Charles Greatest Hits</album>
+			<producer>Sid Feller</producer>
+			<writers>
+				<writer gender="Male">Ray charles</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Ray charles</singer>
+			</singers>
+			<featured> Margie Hendrix</featured>
+			<label>ABC-Paramount</label>
+			<releaseYear>1962</releaseYear>
+			<trackLength>2:00</trackLength>
+			<price>240</price>
+		</song>
+		<song genre="Jazz" coverpage="02" >
+			<songName>"Don't Worry be happy"</songName>
+			<album>Simple Pleasures</album>
+			<producer>Linda Goldstein</producer>
+			<writers>
+				<writer gender="Male">Bobby McFerrin</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Bobby McFerrin</singer>
+			</singers>
+			<label>"EMI-Manhattan"</label>
+			<releaseYear>1998</releaseYear>
+			<trackLength>4:50</trackLength>
+			<price>300</price>
+		</song>
+		<song genre="Rock" coverpage="03">
+			<songName>"Hotel California"</songName>
+			<album>Hotel California</album>
+			<producer>Bill Szymczyk</producer>
+			<writers>
+				<writer gender="Male">Don Felder</writer>
+				<writer gender="Male">Glenn Frey</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Eagles</singer>
+			</singers>
+			<label>Asylum Records</label>
+			<releaseYear>1977</releaseYear>
+			<trackLength>6:30</trackLength>
+			<price>250</price>
+		</song>
+		<song genre="Country Music" coverpage="04" >
+			<songName>"You are my sun"</songName>
+			<album>Unearthed</album>
+			<producer>Milton Okun</producer>
+			<writers>
+				<writer gender="Male">Jimmie Davis</writer>
+				<writer gender="Male">Charles Mitchell</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Johnny Cash</singer>
+			</singers>
+			<featured>Susan Ruskin</featured>
+			<label>Decca</label>
+			<releaseYear>1940</releaseYear>
+			<trackLength>3:26</trackLength>
+			<price>350</price>
+		</song>
+		<song genre="Pop Music" coverpage="05" >
+			<songName>"Rolling in the deep"</songName>
+			<album>Album: 21</album>
+			<director>Sam Brown</director>
+			<producer>Paul Epworth</producer>
+			<writers>
+				<writer gender="Female">Adele Adkins</writer>
+			</writers>
+			<singers>
+				<singer gender="Female">Adele</singer>
+			</singers>
+			<label>XLColumbia</label>
+			<releaseYear>2010</releaseYear>
+			<trackLength>3:48</trackLength>
+			<price>300</price>
+		</song>
+		<song genre="Pop Music" coverpage="06" >
+			<songName>"Thousand Years"</songName>
+			<producer>Paul Katz</producer>
+			<writers>
+				<writer gender="Male">David Hodges</writer>
+			</writers>
+			<singers>
+				<singer gender="Female">Christina Perri</singer>
+			</singers>
+			<featured>Twilight Saga: Breaking Dawn</featured>
+			<label>Atlantic Records</label>
+			<releaseYear>2011</releaseYear>
+			<trackLength>5:05</trackLength>
+			<price>250</price>
+		</song>
+		<song genre="Country Music" coverpage="07" >
+			<songName>"Fast Car"</songName>
+			<album>Tracy Chapman</album>
+			<producer>David Kershenbaum</producer>
+			<writers>
+				<writer gender="Male">Tracy Chapman</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Tracy Chapman</singer>
+			</singers>
+			<label>Elektra</label>
+			<releaseYear>1987</releaseYear>
+			<trackLength>4:57</trackLength>
+			<price>150</price>
+		</song>
+		<song genre="Pop Music" coverpage="08">
+			<songName>"Peaches"</songName>
+			<producer>Shndo</producer>
+			<writers>
+				<writer gender="Male">Justin Bieber</writer>
+				<writer gender="Male">Ashton Simmonds</writer>
+				<writer gender="Male">Giveon Evansr</writer>
+				<writer gender="Male">Louis Bellr</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Justin Bieber</singer>
+			</singers>
+			<featured>Daniel Caesar</featured>
+			<label>Def Jam</label>
+			<releaseYear>2021</releaseYear>
+			<trackLength>3:18</trackLength>
+			<price>350</price>
+		</song>
+		<song genre="Rock" coverpage="09">
+			<songName>"Sweet child"</songName>
+			<album>Appetite for Destruction</album>
+			<producer>Mike Clink</producer>
+			<writers>
+				<writer gender="Male">Axl Rose</writer>
+			</writers>
+			<singers> 
+				<singer gender="Male">Guns N’ Roses</singer>
+			</singers>
+			<label>Geffen</label>
+			<releaseYear>1988</releaseYear>
+			<trackLength>5:55</trackLength>
+			<price>200</price>
+		</song>
+		<song genre="Rock" coverpage="10" >
+			<songName>"Highway to hell"</songName>
+			<album> Highway to hell</album>
+			<producer>Mutt Lange</producer>
+			<writers>
+				<writer gender="Male">Angus Young</writer>
+				<writer gender="Male">Malcolm Young</writer>
+				<writer gender="Male">Bon Scott</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">ACDC</singer>
+			</singers>
+			<label>Albert Productions</label>
+			<releaseYear>1979</releaseYear>
+			<trackLength>3:27</trackLength>
+			<price>200</price>
+		</song>
+		<song genre="Dubstep" coverpage="11" >
+			<songName>"Scary Monsters and Nice Sprites"</songName>
+			<producer>Foreign Beggars</producer>
+			<writers>
+				<writer gender="Male">Skrillex</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Skrillex</singer>
+			</singers>
+			<label>Big Beat Records</label>
+			<releaseYear>2010</releaseYear>
+			<trackLength>4:02</trackLength>
+			<price>250</price>
+		</song>
+		<song genre="Dubstep" coverpage="12" >
+			<songName>"Me and You"</songName>
+			<album>Welcome Reality</album>
+			<producer>Nero</producer>
+			<writers>
+				<writer gender="Male"> Daniel Stephens</writer>
+				<writer gender="Male"> Joseph Ray</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Nero</singer>
+			</singers>
+			<label>Mercury</label>
+			<releaseYear>2010</releaseYear>
+			<trackLength>3:55</trackLength>
+			<price>250</price>
+		</song>
+		<song genre="Dubstep" coverpage="13">
+			<songName>"I Need Air"</songName>
+			<album>Magnetic Man</album>
+			<producer>Angela Hunte</producer>
+			<writers>
+				<writer gender="Male">Arthur Smith</writer>
+				<writer gender="Female">Angela Hunte</writer>
+				<writer gender="Male">Oliver Jones</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Magnetic Man</singer>
+			</singers>
+			<featured>Angela Hunte</featured>
+			<label>	Startime</label>
+			<releaseYear>2010</releaseYear>
+			<trackLength>4:18</trackLength>
+			<price>200</price>
+		</song>
+		<song genre="Country Music" coverpage="14" >
+			<songName>"Take me home"</songName>
+			<album> Poems, prayers and promises</album>
+			<producer>Susan Ruskin</producer>
+			<writers>
+				<writer gender="Male">Bill Danoff</writer>
+				<writer gender="Male">Taffy Nivert</writer>
+				<writer gender="Male">John Denver</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">John Denver</singer>
+			</singers>
+			<label>RCA</label>
+			<releaseYear>1971</releaseYear>
+			<trackLength>3:17</trackLength>
+			<price>150</price>
+		</song>
+		<song genre="Country Music" coverpage="15" >
+			<songName>"I Walk the Line"</songName>
+			<album>Johnny Cash with His Hot and Blue Guitar</album>
+			<producer>Sam Phillips</producer>
+			<writers>
+				<writer gender="Male">Johnny Cash</writer>
+			</writers>
+			<singers>
+				<singer gender="Male">Johnny Cash</singer>
+			</singers>
+			<label>Sun</label>
+			<releaseYear>1956</releaseYear>
+			<trackLength>2:45</trackLength>
+			<price>250</price>
+		</song>
+	</songs>
+	<footer feedback="Rating ★★★★★">
+		<copyright>Copyright © 2021 All rights reserved</copyright>
+	</footer>
+</musicStore>

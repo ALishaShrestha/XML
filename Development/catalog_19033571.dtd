@@ -1,0 +1,35 @@
+<!ELEMENT musicStore (storeDetails, songs, footer)>
+<!ELEMENT storeDetails (storeName,owner, panNo, address, telephoneNo, website, logo)>
+<!ELEMENT storeName (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ELEMENT panNo (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephoneNo (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT songs (song+)>
+<!ELEMENT song (songName, album?, director?, producer*, writers, singers, featured*, label?, releaseYear, trackLength, price?)>
+<!ELEMENT songName (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT writers (writer+)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT singers (singer+)>
+<!ELEMENT singer (#PCDATA)>
+<!ELEMENT featured (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT releaseYear (#PCDATA)>
+<!ELEMENT trackLength (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT footer (copyright)>
+<!ELEMENT copyright (#PCDATA)>
+
+<!ATTLIST owner title (Mr.|Mrs.) #REQUIRED>
+<!ATTLIST address city CDATA #REQUIRED>
+<!ATTLIST address province CDATA #REQUIRED>
+<!ATTLIST song genre CDATA #REQUIRED>
+<!ATTLIST song coverpage CDATA #REQUIRED>
+<!ATTLIST writer gender (Male|Female) #REQUIRED>
+<!ATTLIST singer gender (Male|Female) #REQUIRED>
+<!ATTLIST footer feedback CDATA #REQUIRED>

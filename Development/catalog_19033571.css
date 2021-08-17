@@ -1,0 +1,340 @@
+/*css*/
+* {
+	background-color: white;
+	display: block;
+	font-family: Georgia, serif;
+}
+
+musicStore {
+	border-style: solid;
+	border-color: rgb(146, 106, 153);
+	margin: 9px 100px 9px 100px;
+	background: url(./Images/background.png) no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%
+}
+
+storeDetails {
+	padding-top: 90px;
+	padding-left: 30px;
+}
+storeName {
+	font-family: Courier New, sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgb(5, 16, 115);
+	position: absolute;
+	top: 20px;
+	left: 34%;
+}
+
+owner {
+	font-family: arial;
+}
+
+owner::before {
+	content: "Owner name: " attr(title) " " ;
+}
+
+panNo {
+	position: absolute;
+	top: 18px;
+	left: 110px;
+}
+
+panNo::before {
+	content: "Pan No: ";
+	color: rgb(202, 4, 1);
+
+}
+
+address::before {
+	content: "Address: ";
+}
+address::after {
+	content: "," attr(city) "" ;
+}
+
+telephoneNo::before {
+	content: "Tel Ph: "
+}
+
+website {
+	position: absolute;
+	top: 70px;
+	left: 45%;
+	color: rgb(3, 4, 216);
+	border-bottom: 1px solid rgb(3, 4, 216);
+}
+
+logo {
+	float: none;
+	background: url(./Images/logo.jpg) no-repeat right;
+	background-size: 180px;
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	right: 130px;
+	bottom: 450px;
+}
+
+songs {
+	border-style: groove;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5px;
+	background:rgb(230, 230, 255);
+}
+
+song {
+	border-style: dotted;
+	border-radius: 20px;
+	border-color: rgb(146, 106, 153);
+	width: 700px;
+	height: 340px;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	text-align: 50%;
+	padding-top: 30px;
+	font-family: Georgia, serif;
+}
+
+song::before {
+	content: "Genre: " attr(genre) "";
+	position: relative;
+	left: 100px;
+	top: 15px;
+	border: 2px dotted black;
+	padding: 10px;
+	border-radius: 25px;
+	border-color: rgb(146, 106, 153);
+}
+
+song[coverpage="01"] {
+	background: url(./Images/Image1.png) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="02"] {
+	background: url(./Images/Image2.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="03"] {
+	background: url(./Images/Image3.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="04"] {
+	background: url(./Images/Image4.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="05"] {
+	background: url(./Images/Image5.jpeg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="06"] {
+	background: url(./Images/Image6.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="07"] {
+	background: url(./Images/Image7.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="08"] {
+	background: url(./Images/Image8.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="09"] {
+	background: url(./Images/Image9.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="10"] {
+	background: url(./Images/Image10.jfif) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="11"] {
+	background: url(./Images/Image11.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="12"] {
+	background: url(./Images/Image12.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="13"] {
+	background: url(./Images/Image13.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="14"] {
+	background: url(./Images/Image14.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+song[coverpage="15"] {
+	background: url(./Images/Image15.jpg) no-repeat;
+	background-size: 200px;
+	background-position: 70px;
+}
+
+songName {
+	font-family: 'Brush Script MT', cursive;
+	font-size: 30px;
+	padding-left: 20px; 
+	margin-left: 380px;
+	background:rgb(230, 230, 255);
+	display: list-item;	
+}
+
+album {
+	margin-left: 350px;
+	padding-top: 10px;
+	background:rgb(230, 230, 255);
+}
+
+director {
+	margin-left: 350px;
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+producer {
+	margin-left: 350px;
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+writers {
+	margin-left: 350px;
+	background:rgb(230, 230, 255);
+}
+
+writer {
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+singers { 
+	margin-left: 350px;	
+	background:rgb(230, 230, 255);
+}
+
+singer { 
+	padding-top: 5px;	
+	background:rgb(230, 230, 255);
+}
+
+featured {
+	margin-left: 350px;
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+label {
+	margin-left: 350px;
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+releaseYear {
+	margin-left: 350px;
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+trackLength {
+	margin-left: 350px;
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+price {
+	margin-left: 350px;
+	padding-top: 5px;
+	background:rgb(230, 230, 255);
+}
+
+album::before {
+	content: "Album: ";
+	background:rgb(230, 230, 255);
+
+}
+
+director::before {
+	content: "Director: ";
+	background:rgb(230, 230, 255);
+}
+
+producer::before {
+	content: "Producer: ";
+	background:rgb(230, 230, 255);
+}
+
+writer::before {
+	content: "Writer: ";
+	background:rgb(230, 230, 255);
+}
+
+writer::after {
+	content: " Gender: " attr(gender) " ";
+}
+
+singer::before {
+	content: "Singer: ";
+	background:rgb(230, 230, 255);
+}
+
+singer::after {
+	content: " Gender: " attr(gender) " ";
+}
+
+featured::before {
+	content: "Featured: ";
+	background:rgb(230, 230, 255);
+}
+
+label::before {
+	content: "label: ";
+	background:rgb(230, 230, 255);
+}
+
+releaseYear::before {
+	content: "Release Year: ";
+	background:rgb(230, 230, 255);
+}
+
+releaseYear::after {
+	content: " AD";
+}
+
+trackLength::before {
+	content: "Track Length: ";
+	background:rgb(230, 230, 255);
+}
+
+price::before {
+	content: "Price: Rs. ";
+	background:rgb(230, 230, 255);
+}
+
+footer::before  {
+	content: "Feedback: " attr(feedback) "";
+	float: left;
+}
+
+copyright {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
